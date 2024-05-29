@@ -1,0 +1,46 @@
+# Ignore vendor directory
+/vendor/
+
+# Ignore node_modules directory
+/node_modules/
+
+# Ignore storage directory
+/storage/
+
+# Ignore .env file which contains sensitive information
+.env
+
+# Ignore IDE specific files
+.idea/
+*.iml
+
+# Ignore any log files
+/storage/logs/*.log
+
+# Ignore compiled PHP files
+*.phpc
+
+# Ignore SQLite database files
+*.sqlite
+
+# Ignore Composer lock file
+composer.lock
+
+# Ignore NPM's debug log file
+npm-debug.log
+
+# Ignore mix-manifest.json
+mix-manifest.json
+
+# Ignore Homestead
+Homestead.json
+Homestead.yaml
+
+# Ignore .DS_Store files (macOS specific)
+.DS_Store
+
+# Ignore configuration for PHPUnit
+phpunit.xml
+
+# Ignore IDE folder
+.phpstorm.meta.php
